@@ -1,4 +1,4 @@
 # Frontend-contest-1
  My Dream City in HTML 
 
-A Html Website with Minimal css built for learning the fundamentals for html and basic tags , while trying to follow best practices 
+This website is designed with simplicity and follows best practices to help  learn the basics of HTML and fundamental tags.

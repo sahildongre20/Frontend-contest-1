@@ -1,0 +1,27 @@
+body{
+    padding: 30px;
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+#city-statistics  table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+#hero-img{
+    width: 40%;
+    border: 10px solid black;
+}
+#city-statistics table th{
+    background-color: aqua;
+}
+#city-statistics tr{
+    background-color: aliceblue;
+}
+#city-statistics tr:nth-child(odd){
+    background-color: white;
+}
+hr{
+    border: 2px solid black;
+    margin-top:  20px 
+}

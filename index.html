@@ -1,13 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mumbai</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Mumbai Unveiled</title>
+  </head>
+  <body>
     <header>
-        <h1>Mumbai</h1>
+      <h1>Mumbai</h1>
+      <p>"Mumbai Unveiled: Your Journey Begins Here"</p>
     </header>
-</body>
+    <hr>
+
+    <nav>
+      <a href="">Description</a> |
+      <a href="">Attractions</a> |
+      <a href="">Statistics</a> |
+      <a href="">Feedback</a> |
+      <a href="">Quotes</a> |
+      <a href="">Contact</a>
+    </nav>
+    <hr>
+
+    <section id="city-description">
+        <h2>Discover Mumbai</h2>
+        <img id="hero-img" src="https://images.unsplash.com/photo-1531059793350-994da3ebbf87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Gateway of India">
+        <p>Mumbai, the 'City of Dreams,' is a bustling metropolis that combines tradition and modernity in a unique blend. Explore iconic landmarks, savor diverse cuisine, and immerse yourself in the vibrant culture of this captivating Indian city.</p>
+    </section>
+    <hr>
+
+    <section id="city-attractions">
+        <h2>Attractions</h2>
+        <h3>Main Attractions</h3>
+        <ol>
+            <li>Gateway of India</li>
+            <li>Elephanta Caves</li>
+            <li>Marine Drive</li>
+            <li>Colaba Causeway</li>
+            <li>Film City</li>
+        </ol>
+        <h3>Local Favorites </h3>
+        <ul>
+            <li>Crawford Market</li>
+            <li>Kala Ghoda</li>
+            <li>Bandra Bandstand</li>
+            <li>Beaches
+                <ul>
+                    <li>Juhu Beach</li>
+                    <li>Chowpatty Beach</li>
+                    <li>Versova Beach</li>
+                    <li>Dadar Beach</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <hr>
+
+    <section id="city-statistics">
+        <h2>City Statistics</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Attributes</th>
+                    <th>Values</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Population</td>
+                    <td>12.5 million</td>
+                </tr>
+                <tr>
+                    <td>Landmass</td>
+                    <td>603 square kilometers</td>
+                </tr>
+                <tr>
+                    <td>Landmarks</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Parks</td>
+                    <td>132</td>
+                </tr>
+                <tr>
+                    <td>Beaches</td>
+                    <td>132</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <hr>
+
+    <section id="city-feedback">
+        <h2>Feedback</h2>
+        <form action="" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <br>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" required>
+            <br>
+            <br>
+            <label for="fav-attribute">Favorite Attraction:</label>
+            <select name="fav-attribute" id="fav-attribute">
+                <option value="" selected disabled> --Please Select a Option--</option>
+                <option value="Gateway of India">Gateway of India</option>
+                <option value="Elephanta Caves">Elephanta Caves</option>
+                <option value="Colaba Causeway">Colaba Causeway</option>
+                <option value="Dadar Beach">Dadar Beach</option>
+            </select>
+            <br>
+            <br>
+            <label for="comments">Comments:</label>
+            <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+            <br>
+            <br>
+            <label for="newsletter">Newsletter:</label>
+            <input type="checkbox" name="newsletter" id="newsletter">
+            <label for="newsletter">Subscribe to our Newsletter</label>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <hr>
+
+    <section id="quotes">
+        <h2>What Citizens say</h2>
+        <p>"Mumbai is more than just a city; it's a feeling that's impossible to describe in words." - <span>Rahul</span></p>
+        <p>"The bustling streets, the diverse cultures, and the spirit of Mumbai—it's all a part of who we are." - <span>Neha</span></p>
+    </section>
+    <hr>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <address>
+            1234 Oceanview Avenue<br>
+            Malabar Hill<br>
+            Mumbai - 400006<br>
+            Maharashtra, India <br>
+            Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a><br>
+            Phone: <a href="tel:+1234567890">+1 (234) 567-890</a>
+          </address>
+    </section>
+    <hr>
+
+    <footer>
+        <p>@2023 Mumbai Unveiled. Your Journey Begins Here !</p>
+    </footer>
+  </body>
 </html>

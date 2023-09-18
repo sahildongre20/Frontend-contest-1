@@ -28,3 +28,8 @@ hr{
     border: 2px solid black;
     margin-top:  20px 
 }
+dt::before{
+    content: "\2022";
+    margin-right: 5px;
+    font-size: 20px;
+}
